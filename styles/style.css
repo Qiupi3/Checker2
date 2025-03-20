@@ -1,5 +1,5 @@
 /* Style for the chessboard */
-.chessboard {
+.checkerboard {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -9,7 +9,7 @@
 }
 
 /* Styling for each square */
-.square {
+.cell {
     width: 50px;
     height: 50px;
 }
